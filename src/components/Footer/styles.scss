@@ -1,0 +1,24 @@
+.footer {
+
+
+  .container {
+    padding: 19px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+
+    @include devices {
+      padding: 19px 0;
+    }
+  }
+
+  &-list {
+
+  }
+
+  &-copyright {
+
+  }
+
+  @include devices {
+    padding: 0 16px;
+  }
+}
